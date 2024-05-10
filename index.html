@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Conversores</title>
+    <link rel="stylesheet" href="styles/style.css">
+</head>
+<body>
+    <h2>Conversor de Temperatura</h2>
+    <label for="celsius">Celsius:</label>
+    <input class="textField" type="number" id="celsius" placeholder="Digite a temperatura em celsius" onchange="convertTemperature()">
+
+    <label for="fahrenheit">Fahrenheit:</label>
+    <input class="textField" type="number" id="fahrenheit" placeholder="Digite a temperatura em fahrenheit" onchange="convertTemperature()">
+
+    <div class="separator"></div>
+
+    <h2>Conversor de Horas</h2>
+    <label for="hour">Horas:</label>
+    <input class="textField" type="number" id="hour" placeholder="Digite a quantidade de horas" onchange="convertTime()">
+
+    <label for="minute">Minutos:</label>
+    <input class="textField" type="number" id="minute" placeholder="Digite a quantidade de minutos" onchange="convertTime()">
+
+    <div class="separator"></div>
+
+    <h2>Conversor de Metros para Centímetros</h2>
+    <label for="meters">Metros:</label>
+    <input class="textField" type="number" id="meters" placeholder="Digite a quantidade de metros" onchange="convertMeters()">
+
+    <label for="centimeters">Centímetros:</label>
+    <input class="textField" type="number" id="centimeters" placeholder="Digite a quantidade de centímetros" onchange="convertMeters()">
+
+    <div class="separator"></div>
+
+    <h2>Conversor de Moedas</h2>
+    <label for="dolar">Dolár:</label>
+    <input class="textField" type="number" id="dolar" placeholder="Digite o valor em dolar" onchange="convertMoeda()">
+
+    <label for="real">Real:</label>
+    <input class="textField" type="number" id="real" placeholder="Digite o valor em real" onchange="convertMoeda()">
+
+    <script src="scripts/index.js"></script>
+</body>
+</html>

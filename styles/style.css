@@ -1,0 +1,41 @@
+:root{
+    --primary-color: #1b1955;
+    --secundary-color: #ffa500;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: var(--secundary-color);
+}
+
+body{
+    padding: 10px;
+    font-family: sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    min-height: 100vh;
+    background-color: var(--primary-color);
+    gap: 1rem;
+}
+
+.textField{
+    padding: 0.5rem;
+    background-color: var(--primary-color);
+    color: var(--secundary-color);
+    border: 1px solid var(--secundary-color);
+    border-radius: 1rem;
+}
+
+.separator{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 1rem;
+    height: 1px;
+    width: 100%;
+    background-color: whitesmoke;
+}
